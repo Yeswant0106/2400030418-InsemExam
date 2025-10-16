@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import Home from './Home';
 import Courses from './Courses';
 import Contact from './Contact';
-import NotFound from './NotFound'; // Optional
+
 
 function App() {
   const linkStyle = ({ isActive }) => ({
